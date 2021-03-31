@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', sans-serif;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 6%;
+  padding-right: 3.5%;
+  padding-bottom: 4.5%;
+  padding-left: 3.5%;
+  color: white;
+  text-align: left;
+  background: black;
+}
+
+h1 {
+  font-size: 6em;
+  margin: 0 0 0.5% 0;
+}
+
+h2 {
+  font-size: 4.5em;
+  font-weight: lighter;
+  margin: 0 0 0 0;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin: 0.8% 0 0 0;
+}
+
+h3 {
+  text-align: left;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: gray;
+  padding-bottom: 1.5%;
+  border-bottom: 0.05em solid gray;
+}
+
+section {
+  display: inline-block;
+  width: auto;
+  padding-right: 21%;
+  padding-left: 21%;
+  padding-bottom: 3%;
+}
+
+form {
+  display: block;
+  font-weight: bolder;
+}
+
+input[type='text'] {
+  width: 100%;
+  height: 3.5em;
+  margin: 1.5em 0;
+  border: none;
+  background-color: dimgray;
+}
+
+input[type='submit'] {
+  background-color: black;
+  width: 15%;
+  height: 2.5em;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  float: right;
+  width: 340px;
+  height: 355px;
+  margin-left: 1%;
+  object-fit: cover;
+}
+
+#coments {
+  height: 10em;
+  box-sizing: border-box;
+  background-color: dimgray;
+  font-size: 16px;
+}
+
+#p1 {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding-top: 11%;
+    padding-right: 3.5%;
+    padding-bottom: 18%;
+    padding-left: 6%;
+    text-align: center;
+  }
+  h1 {
+    font-size: 280%;
+  }
+  h2 {
+    font-size: 250%;
+    margin: 3% 0 0 0;
+  }
+  p {
+    font-size: 80%;
+    margin: 5% 0 0 0;
+  }
+  #p1 {
+    font-size: 100%;
+    margin: 5% 0 0 0;
+  }
+  h3 {
+    font-size: 140%;
+    font-weight: normal;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img {
+    width: 340px;
+    height: 260px;
+    margin-bottom: 5%;
+    object-fit: contain;
+  }
+  input[type='submit'] {
+    width: 35%;
+    margin-bottom: 5%;
+  }
+}

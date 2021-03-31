@@ -1,0 +1,55 @@
+ul.lista li:last-child {
+  background: rgb(0, 0, 255);
+  width: fit-content;
+  padding-right: 10px;
+}
+
+ul.lista li:nth-child(odd) {
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 128, 0);
+}
+
+.lista li {
+  list-style: none;
+  display: inline;
+  padding-left: 10px;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.lista li:nth-child(1)::after {
+  content: '😀';
+}
+ul.lista li:nth-child(2)::after {
+  content: '😁';
+}
+ul.lista li:nth-child(3)::after {
+  content: '😂';
+}
+ul.lista li:nth-child(4)::after {
+  content: '🤣';
+}
+ul.lista li:nth-child(4)::after {
+  content: '😃';
+}
+ul.lista li:nth-child(5)::after {
+  content: '😄';
+}
+ul.lista li:nth-child(6)::after {
+  content: '😅';
+}
+.lista li:lang(en) {
+  font-size: 200%;
+  text-transform: uppercase;
+}
+
+#provincias {
+  list-style-type: upper-roman;
+}
+#provincias li:nth-child(2) {
+  list-style-type: initial;
+}
